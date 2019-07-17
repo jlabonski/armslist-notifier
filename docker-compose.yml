@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+    armslist-notifier:
+        image: armslist-notifier
+        build: .
+        restart: "never"
+        cap_drop:
+            - ALL
+        cap_add: []
+        volumes:
+            - type: volume
+              source: aln
+              target: /aln
+volumes:
+    aln:
+        driver: local
