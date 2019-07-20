@@ -7,6 +7,8 @@ services:
         cap_drop:
             - ALL
         cap_add: []
+        env_file:
+            - settings
         volumes:
             - type: volume
               source: aln

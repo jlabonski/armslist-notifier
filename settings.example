@@ -1,0 +1,7 @@
+URL='https://www.armslist.com/classifieds/search?location=new-hampshire&category=all&page=1&posttype=7&sellertype=1&ships=False'
+XPATH='/html/body/dv[@id="wrapper"]/main/div/div//div[contains(@class, "row")]//h4/a/text()'
+AWS_ACCESS_KEY_ID=1
+AWS_SECRET_ACCESS_KEY=2
+EMAIL=foo
+FROM=bar
+WORKDIR=/tmp

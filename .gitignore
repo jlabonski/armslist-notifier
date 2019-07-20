@@ -1,4 +1,7 @@
 last.txt
+settings
+email_failure
+xpath_failure
 
 # Created by https://www.gitignore.io/api/code,linux,macos,windows
 # Edit at https://www.gitignore.io/?templates=code,linux,macos,windows
