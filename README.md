@@ -2,7 +2,7 @@
 
 _OR: never tell your friends you can write software_
 
-Written in bash, two dependancies, docker container included. As a bit of a
+Written in bash, three dependencies, docker container included. As a bit of a
 programming exercise in pain, why not do it in bash? The classifieds website is
 openly hostile to scraping, provides no RSS or easy way to pull data out of it,
 and has tons of XHTML errors which renders it unparsable. The glue of bash to
