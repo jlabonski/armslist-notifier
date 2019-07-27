@@ -135,9 +135,8 @@ function send_mail {
 if [[ "${LAST}" != "${NOW}" ]]
 then
 	DIFF=$(echo "${NOW}" | diff --changed-group-format='%>' --unchanged-group-format='' "${WORKDIR}/last.txt" -)
+	echo "${DIFF}" > "${WORKDIR}/last_diff.txt"
 	send_mail "${DIFF}"
-else
-	echo "Same!"
 fi
 
 echo "${NOW}" > "${WORKDIR}/last.txt"
